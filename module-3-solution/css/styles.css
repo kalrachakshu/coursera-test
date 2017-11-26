@@ -47,3 +47,9 @@ h3{
 #nav-list a span {
   font-size: 1.8em;
 }
+@media (max-width: 768px)
+{
+	.container{
+		margin: 10px;
+	}
+}
