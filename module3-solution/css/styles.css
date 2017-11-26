@@ -1,0 +1,55 @@
+body{
+	color:black;
+}
+#header-nav{
+	background-color: gray;
+}
+.navbar-brand{
+	height: 100px;
+}
+.navbar-brand h1{
+	font-family: lucida console;
+	text-align: center;
+	padding-top: 0;
+	color: black;
+	font-size: 36px;
+}
+h3{
+	padding-top: 10px;
+	text-align: center;
+	color: black;
+}
+.main_content p{
+	text-align: center;
+	padding: 10px;
+}
+.main_content{
+	background-color: gray;
+}
+.navbar-header button{
+	margin-top: 35px;
+	background-color: blue;
+}
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+	margin-top: 0;
+	background-color: white;
+	border: solid 2px;
+  color: black;
+  font-size: 5vw;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+@media (max-width: 768px)
+{
+	.container{
+		margin: 10px;
+	}
+}
